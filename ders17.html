@@ -1,0 +1,57 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="az-Latn">
+<head>
+	<title>Dərs17</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="dərs17, cmd, path">
+	<meta name="author" content="Ismikhan Gasimov">
+	<meta name="description" content="Fraqmentlər, təqlər">
+	<meta http-equiv="refresh" content="20">
+</head>
+<body>
+<h1>DƏRS 17</h1>
+<ul>
+	<h3><li><a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/dir" target="_blank">Cmd dir komandası</a> <a href="#cmddir"> <img src="img/fragment.png" width="30" height="30"> </a> </li></h3>
+	<h3><li><a href="https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/" target="_blank"> Path</a><a href="#path"> <img src="img/fragment.png" width="30" height="30"> </a> </li></h3>
+	<h3><li><a href="http://www.simplehtmlguide.com/linking.php" target="_blank"> Fraqmentlər</a> <a href="#fragman"> <img src="img/fragment.png" width="30" height="30"> </a></li></h3>
+	<h3><li><a href="https://www.w3schools.com/TAGS/tag_a.asp" target="_blank"> A tags <a href="#atag"> <img src="img/fragment.png" width="30" height="30"> </a></li></h3>
+	
+	<h3><li><a href="meta tags.html" target="_blank"> Meta tags </a> <a href="meta tags aciqlama.html" target="_blank"> <img src="img/fragment.png" width="30" height="30"> </a></li></h3>
+	
+	<h3><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map" target="_blank"> Map name, usemap </a> <a href="https://html.com/attributes/map-name/" target="_blank"><img src="img/fragment.png" width="30" height="30"> </a> </li></h3>
+	
+	<a href="cmd komulari.html" target="_blank"><h3><li>CMD Comands</a> <a href="https://download.microsoft.com/download/5/8/9/58911986-D4AD-4695-BF63-F734CD4DF8F2/ws-commands.pdf"><img src="img/fragment.png" width="30" height="30"></a></li></h3>
+</ul>
+<br><br><br><br>
+
+	<h2 id="cmddir">Cmd dir komandası</h2>
+	<p >
+<h3>Dir/p-səhifəli baxış Dir/a-bütün tip,həmçinin sistem və gizli fayllara baxış Dir disk:\fayl /s /a-göstərilən faylı göstərilən diskdə axtarmaq cd-növbəti kataloqa keçid(Məsələn:C:\mydocs\book\pc) cd\-kataloqun kökünə keçid a:-"A" diskinə keçid d:-"D" diskinə keçid copy-surətini çıxarmaq del-pozmaq move-yerini dəyişmək rename-adını dəyişdirmək md-yeni qovluq yaratmaq RD-boş kataloqu silmək DelTree-bütün göstəriləni silmək(boş olmayan kataloqu silmək) Type-kiçik mətnlərə baxmaq more-istənilən faylın səhifəli baxışı.Ctrl+C basmaqla dayandırılır Help-kömək. <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/dir" target="_blank"> Ətraflı</a></h3> 
+</p>
+<br>
+<h2 id="path">Göreli ve Mutlak Bağlantılar</h2>
+<h3> <p>Metin bağlantıları eklediğinizde şu iki etkeni göz önünde bulundurmanız gerekir: metin bağlantıları kaydedilirken göreli mi yoksa mutlak olarak mı ayarlanacak ve dosya var mı yoksa yok mu.</p></h3>
+<h4>
+ <ul>
+	<li>Dosya - Tercihler - Symphony - Yükle ve Kaydet - Genel seçeneğini belirleyin ve Lotus® Symphony™ göreli ya da mutlak metin bağlantıları oluşturuyorsa Göreli URL'leri Kaydet alanında belirtin. . Göreli bağlantı yalnızca, çalışmakta olduğunuz belge ve bağlantı hedefi aynı sürücüde olduğundan olanaklıdır.</li>
+	<li>Sabit diskinizde, İnternet sağlayıcınız tarafından barındırılan Web alanınızda bulunanla aynı dizin yapısı oluşturmalısınız. Sabit diskinizde ana sayfa kök dizinini örneğin "homepage" olarak çağırın. Bu durumda başlatma dosyası "index.html"dir ve tam yol adı da "C:\homepage\index.html"dir (Windows işletim sisteminin kullanıldığı varsayılmaktadır). İnternet sağlayıcınızın sunucusundaki URL şu şekilde olur: "http://www.sağlayıcım.com/sayfam/index.html". Göreli adreslemede, çıktı belgesinin konumuna göreli bağlantıyı gösterin. Örneğin, ana sayfanıza ilişkin tüm grafikleri "C:\homepage\images" adlı bir alt klasöre yerleştirdiyseniz, "picture.gif" adlı grafiğe erişmek için "images\picture.gif" yolunu vermelisiniz. Bu, "index.html" dosyasının konumundan başlayan göreli yoldur. Sağlayıcının sunucusunda, resmi "sayfam/resimlerim" altında yerleştirirsiniz.</li>
+	<li>"C:\homepage\graphics\picture.gif" gibi bir mutlak yol sağlayıcının sunucusunda işe yaramaz. Bir sunucu ya da okuyucunun bilgisayarının C sabit sürücüsü olması gerekmez: Unix ya da MacOS gibi işletim sistemleri sürücü harflerini tanımaz ve homepage\graphics klasörü var olsa dahi resim kullanılamaz. dosya bağlantıları için göreli adresleme kullanmak daha iyidir.</li>
+	<li>Örneğin, "www.sun.com" ya da "www.sağlayıcım.com/sayfam/index.html" gibi Web sayfası bağlantıları mutlak bağlantılardır.</li>
+	<li>Ayrıca, Lotus Symphony, bağlantıda gönderme yapılan dosyanın var olup olmamasına ve bulunduğu yere bağlı olarak farklı tepkiler verir. Lotus Symphony her bağlantıyı denetler ve otomatik olarak bir hedef ve iletişim kuralı belirler.</li>
+	<li>Şu kural uygulanır: Göreli bir başvuru ("graphic/picture.gif") yalnızca her iki dosyanın da aynı sürücüde var olması durumunda olanaklıdır. Dosyalar, yerel dosya sisteminizde farklı sürücülerde bulunuyorsa, mutlak başvuru "file:" iletişim kuralını izler ("file:///data1/xyz/picture.gif"). Dosyalar farklı sunucularda ise ya da bağlantının hedefi yoksa, mutlak başvuru "http:" iletişim kuralını ("http://data2/abc/picture.gif") kullanır.</li>
+	<li>Ana sayfanızın tüm dosyalarını, ana sayfanın başlangıç dosyası ile aynı sürücüde düzenlediğinizden emin olun. Bu şekilde, Lotus Symphony iletişim kuralını ve hedefi belirleyebilir ve böylece sunucudaki başvuru her zaman doğru olur.</li>
+
+</ul>
+</h4>
+
+
+<h2 id="fragman">Fragman tanımlayıcısı</h2>
+<h3> <p>  Bilgisayar olarak Hypertext bir fragmanı tanımlayıcı bir kısa dizi ait karakter bir belirtmektedir kaynak birinci kaynak, diğerine bağlı olduğunu. Birincil kaynak bir Tekdüzen Kaynak Tanımlayıcısı (URI) ile tanımlanır ve parça tanımlayıcı alt kaynağa işaret eder.<br>
+
+Bir karma işareti tarafından tanıtılan parça tanımlayıcısı , bir dokümanın #bir URL'sinin isteğe bağlı son kısmıdır . Bu belgenin bir bölümünü tanımlamak için kullanılır. Genel sözdizimi RFC 3986'da belirtilmiştir . Karma işareti URI'larda ayırıcı parça tanımlayıcısında ait değil.</p></h3>
+
+
+<img id ="atag" alt="anchor" src="img/code a.png" width="800" height="380">
+</body>
+</html>
